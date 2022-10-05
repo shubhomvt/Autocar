@@ -1,4 +1,4 @@
-Try to implement the following code from TensorFlow to PytTorch
+Try to implement the following code from TensorFlow to PyTorch
 Test the code and fix the bugs
 Change the simulator to CARLA
 Test and fix bugs
