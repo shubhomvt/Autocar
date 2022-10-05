@@ -1,4 +1,4 @@
-Try to implement the following code TO pytorch
+Try to implement the following code in pytorch
 Test the code and fix the bugs
 Change the simulator to CARLA
 Test and fix bugs
