@@ -139,6 +139,7 @@ def batch_generator(data_dir, image_paths, steering_angles, batch_size, is_train
     """
     images = np.empty([batch_size, IMAGE_HEIGHT, IMAGE_WIDTH, IMAGE_CHANNELS])
     steers = np.empty(batch_size)
+    print('hey')
     while True:
         i = 0
         for index in np.random.permutation(image_paths.shape[0]):
@@ -153,6 +154,7 @@ def batch_generator(data_dir, image_paths, steering_angles, batch_size, is_train
             images[i] = preprocess(image)
             steers[i] = steering_angle
             i += 1
+            
             if i == batch_size:
                 break
         yield images, steers
