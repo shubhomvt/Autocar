@@ -142,7 +142,7 @@ def batch_generator(data_dir, image_paths, steering_angles, batch_size, is_train
     print('hey')
     while True:
         i = 0
-        for index in np.random.permutation(image_paths.shape[0]):
+        for index in np.random.permutation(image_paths.shape[0]): #size of the dataset eg (85,3) => 85 here
             center, left, right = image_paths[index]
             steering_angle = steering_angles[index]
             # argumentation
