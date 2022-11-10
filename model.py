@@ -78,7 +78,7 @@ def main():
     parser.add_argument('-o', help='save best models only', dest='save_best_only',    type=s2b,   default='true')
     parser.add_argument('-l', help='learning rate',         dest='learning_rate',     type=float, default=1.0e-4)
     args = parser.parse_args()
-
+    
     #print parameters
     print('-' * 30)
     print('Parameters')
